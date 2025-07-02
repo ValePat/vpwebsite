@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <ScrollableContainer></ScrollableContainer>
-      <div className="gradient-bg">
+      <div className="gradient-bg fixed">
         {/* Resto del background animato */}
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>

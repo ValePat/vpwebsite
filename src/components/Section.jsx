@@ -7,34 +7,22 @@ function Section() {
   return (
     <div className="grid grid-cols-6 gap-4">
       <SectionContent colSpan={6}>
-        <p className="text-xl">About me</p>
+        <h2 className="text-xl">About me</h2>
         <p className="font-thin">Passionate Software Developer with a strong background in
           front-end development and graphic design. I have evolved into
           specializing in complex full-stack applications, gaining a
           comprehensive understanding of back-end architecture and
           technology.</p>
       </SectionContent>
-      <SectionContent colSpan={3}>
+      <SectionContent colSpan={1}>
         <p className="text-xl">Javacript</p>
         <SiSap></SiSap>
       </SectionContent>
-      <SectionContent colSpan={3}>
+      <SectionContent colSpan={1}>
         <p className="text-xl">Esempio 2</p>
         <SiNodedotjs></SiNodedotjs>
       </SectionContent>
-      <SectionContent colSpan={6}>
-        <p className="text-xl">Bio</p>
-        <p className="font-thin">Ciao come stai molto bene grazie</p>
-      </SectionContent>
-      <SectionContent colSpan={6}>
-        <p className="text-xl">Bio</p>
-        <p className="font-thin">Ciao come stai molto bene grazie</p>
-      </SectionContent>
-      <SectionContent colSpan={6}>
-        <p className="text-xl">Bio</p>
-        <p className="font-thin">Ciao come stai molto bene grazie</p>
-      </SectionContent>
-      <SectionContent colSpan={6}>
+      <SectionContent colSpan={1}>
         <p className="text-xl">Bio</p>
         <p className="font-thin">Ciao come stai molto bene grazie</p>
       </SectionContent>

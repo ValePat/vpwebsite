@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 
-body {
- overflow: hidden;
-}
+// body {
+//  overflow: hidden;
+// }
 
-.scrollable::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
+// .scrollable::-webkit-scrollbar {
+//   width: 0px;
+//   height: 0px;
+// }
 
-.scrollable {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE/Edge */
-}
+// .scrollable {
+//   scrollbar-width: none; /* Firefox */
+//   -ms-overflow-style: none;  /* IE/Edge */
+// }
 
 
 p {
@@ -98,7 +98,7 @@ html, body {
   .gradient-bg {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: fixed;
     overflow: hidden;
     background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
     top: 0;

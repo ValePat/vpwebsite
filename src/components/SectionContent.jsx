@@ -11,7 +11,7 @@ const SectionContent = ({ colSpan = 6, children }) => {
   const colSpanClass = colSpanClasses[colSpan] || "col-span-6";
 
   return (
-    <div className={`${colSpanClass} bg-gray-800/60 min-h-[100px] rounded-lg dark:shadow-none outline outline-[1px] dark:-outline-offset-1 dark:outline-white/10 text-white p-5`}>
+    <div className={`${colSpanClass} bg-gray-800/20 min-h-[100px] rounded-lg dark:shadow-none outline outline-[1px] dark:-outline-offset-1 dark:outline-white/10 text-white p-5`}>
       {children}
     </div>
   );
